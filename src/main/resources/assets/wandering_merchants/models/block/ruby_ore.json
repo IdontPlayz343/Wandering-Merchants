@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wandering_merchants:block/ruby_ore"
+  }
+}

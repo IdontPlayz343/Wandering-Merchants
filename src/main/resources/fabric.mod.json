@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "wandmerchants",
+  "version": "${version}",
+
+  "name": "Wandering Merchants",
+  "description": "Makes Wandering Traders behave more like the Resident Evil 4 Remake's Merchant. He can buy treasure, he can sell useful resources, and he can repair anything you got.",
+  "authors": [
+    "MelonSlayer78"
+  ],
+  "contact": {
+    "homepage": "https://github.com/IdontPlayz343/Wandering-Merchants",
+    "sources": "https://github.com/IdontPlayz343/Wandering-Merchants"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/wandering_merchants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ipplayz343.wanderingmerchants.WanderMerchant"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
